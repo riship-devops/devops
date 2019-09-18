@@ -1,0 +1,92 @@
+2019-07-11 12:43:19 ERROR  : ERROR:  database "test1" already exists
+2019-07-11 13:00:56 ERROR  : ERROR:  syntax error at or near "("
+LINE 2: ( 
+        ^
+2019-07-11 13:02:48 ERROR  : ERROR:  syntax error at or near "CHARACTER"
+LINE 3:  PATIENT NAME CHARACTER VARYING(20) NOT NULL,
+                      ^
+2019-07-11 13:03:03 ERROR  : ERROR:  syntax error at or near ""CHARACTER VARYING(20)""
+LINE 3:  PATIENT NAME "CHARACTER VARYING(20)" NOT NULL,
+                      ^
+2019-07-11 13:03:06 ERROR  : ERROR:  syntax error at or near ""CHARACTER VARYING(20)""
+LINE 3:  PATIENT NAME "CHARACTER VARYING(20)" NOT NULL,
+                      ^
+2019-07-11 13:03:29 ERROR  : ERROR:  syntax error at or near ""CHARACTER VARYING(20)""
+LINE 3:  PATIENT NAME "CHARACTER VARYING(20)" "NOT NULL",
+                      ^
+2019-07-11 13:04:43 ERROR  : ERROR:  syntax error at or near "PATIENT"
+LINE 3:  PATIENT NAME CHARACTER VARYING(20) N
+         ^
+2019-07-11 13:05:24 ERROR  : ERROR:  syntax error at or near "("
+LINE 4:  AGE INTEGER(3) NOT NULL,
+                    ^
+2019-07-11 13:06:10 ERROR  : ERROR:  relation "table1" already exists
+2019-07-11 14:30:49 ERROR  : ERROR:  column "apd" does not exist
+LINE 3:     VALUES ('SIVA', 30, 'M', APD);
+                                     ^
+2019-07-11 14:38:13 ERROR  : ERROR:  column "Age" is of type inet but expression is of type integer
+LINE 3:     VALUES ('SIVA', 21, 1);
+                            ^
+HINT:  You will need to rewrite or cast the expression.
+2019-07-11 14:38:30 ERROR  : ERROR:  column "Age" is of type inet but expression is of type integer
+LINE 3:     VALUES ('SIVA',21,1);
+                           ^
+HINT:  You will need to rewrite or cast the expression.
+2019-07-11 14:38:34 ERROR  : ERROR:  column "Age" is of type inet but expression is of type integer
+LINE 3:     VALUES ('SIVA',21,1);
+                           ^
+HINT:  You will need to rewrite or cast the expression.
+2019-07-11 15:53:47 ERROR  : ERROR:  relation "screeningtable" does not exist
+LINE 1: SELECT * FROM ScreeningTable
+                      ^
+2019-07-11 15:56:35 ERROR  : ERROR:  relation "screeningtable" does not exist
+LINE 1: select * from ScreeningTable
+                      ^
+2019-07-11 15:57:21 ERROR  : ERROR:  relation "screeningtable" does not exist
+LINE 1: select * from ScreeningTable
+                      ^
+2019-07-11 15:58:49 ERROR  : ERROR:  relation "screeningtable" does not exist
+LINE 1: select * from ScreeningTable
+                      ^
+2019-08-09 12:20:49 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2019-08-09 12:26:23 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2019-08-09 13:03:54 ERROR  : ERROR:  syntax error at or near "aswin"
+LINE 3:     VALUES (125, Dr aswin Haridas, 26, kerala, 6677554433);
+                            ^
+2019-08-09 13:07:29 ERROR  : ERROR:  syntax error at or near "Haridas"
+LINE 3:     VALUES (125,aswin Haridas, 26, kerala, 6677554433);
+                              ^
+2019-08-09 13:07:31 ERROR  : ERROR:  syntax error at or near "Haridas"
+LINE 3:     VALUES (125,aswin Haridas, 26, kerala, 6677554433);
+                              ^
+2019-08-09 13:07:59 ERROR  : ERROR:  column "kerala" does not exist
+LINE 3:     VALUES (125,'aswin Haridas', 26, kerala, 6677554433);
+                                             ^
+2019-08-09 13:08:07 ERROR  : ERROR:  column "employee id" is of type "char" but expression is of type integer
+LINE 3:     VALUES (125,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+HINT:  You will need to rewrite or cast the expression.
+2019-08-09 13:08:42 ERROR  : ERROR:  column "sdm" does not exist
+LINE 3:     VALUES (sdm,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+2019-08-09 13:08:47 ERROR  : ERROR:  column "sdm" does not exist
+LINE 3:     VALUES (sdm,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+2019-08-09 13:09:06 ERROR  : ERROR:  column "employee id" is of type "char" but expression is of type integer
+LINE 3:     VALUES (1,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+HINT:  You will need to rewrite or cast the expression.
+2019-08-09 13:09:25 ERROR  : ERROR:  column "employee id" is of type "char" but expression is of type integer
+LINE 3:     VALUES (1,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+HINT:  You will need to rewrite or cast the expression.
+2019-08-09 13:09:39 ERROR  : ERROR:  column "ujkj1" does not exist
+LINE 3:     VALUES (ujkj1,'aswin Haridas', 26, 'kerala', 6677554433)...
+                    ^
+2019-08-09 13:10:18 ERROR  : ERROR:  column "employee id" is of type "char" but expression is of type integer
+LINE 3:     VALUES (67,'aswin Haridas', 26, 'kerala', 6677554433);
+                    ^
+HINT:  You will need to rewrite or cast the expression.
+2019-08-09 13:10:37 ERROR  : ERROR:  integer out of range
